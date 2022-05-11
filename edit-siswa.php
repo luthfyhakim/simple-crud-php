@@ -43,6 +43,7 @@ $row = mysqli_fetch_array($result);
                             
                             <button type="submit" class="btn btn-success">UPDATE</button>
                             <button type="reset" class="btn btn-warning">RESET</button>
+                            <button type="button" class="btn btn-primary" onclick="window.history.back();">CANCEL</button>
                         </form>
                     </div>
                 </div>

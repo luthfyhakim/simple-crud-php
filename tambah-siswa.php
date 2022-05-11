@@ -27,8 +27,9 @@
                                 <label style="margin-top: 10px;">Alamat</label>
                                 <textarea class="form-control" name="alamat" placeholder="Masukkan Alamat Siswa" rows="4"></textarea required>
                             </div>
-                            <button type="submit" class="btn btn-success" style="margin-top: 20px;">SIMPAN</button>
+                            <button type="submit" class="btn btn-success" style="margin-top: 20px;">SAVE</button>
                             <button type="reset" class="btn btn-warning" style="margin-top: 20px;">RESET</button>
+                            <button type="button" class="btn btn-primary" style="margin-top: 20px;" onclick="window.history.back();">CANCEL</button>
                         </form>
                     </div>
                 </div>
